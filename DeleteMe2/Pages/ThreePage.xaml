@@ -9,9 +9,8 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" FontSize="Large" BackgroundColor="Green"/>
 
-
-        <Button Command="{Binding GoToTwoPageCommand}" Text="Go to Two"/>
         <Button Command="{Binding GoToFourPageCommand}" Text="Go to FOUR"/>        
+        
         
     </VerticalStackLayout>
 

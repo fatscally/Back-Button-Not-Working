@@ -20,10 +20,12 @@ namespace DeleteMe2
                     builder.Services.AddTransient<TwoPage>();
                     builder.Services.AddTransient<ThreePage>();
                     builder.Services.AddTransient<FourPage>();
+                    builder.Services.AddTransient<FivePage>();
                     builder.Services.AddTransient<ViewModel1>();
                     builder.Services.AddTransient<ViewModel2>();
                     builder.Services.AddTransient<ViewModel3>();
                     builder.Services.AddTransient<ViewModel4>();
+                    builder.Services.AddTransient<ViewModel5>();
 
 #if DEBUG
             builder.Logging.AddDebug();

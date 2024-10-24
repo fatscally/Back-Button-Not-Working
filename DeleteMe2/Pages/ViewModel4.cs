@@ -7,6 +7,12 @@ namespace DeleteMe2.Pages;
 
 public partial class ViewModel4
 {
+    [RelayCommand]
+    public void GoToFivePage()
+    {
+        Shell.Current.GoToAsync("FivePage");
+    }
+
 
     [RelayCommand]
     public void CancelPage()

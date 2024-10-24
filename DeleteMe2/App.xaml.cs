@@ -14,6 +14,7 @@ namespace DeleteMe2
             Routing.RegisterRoute(nameof(TwoPage), typeof(TwoPage));
             Routing.RegisterRoute(nameof(ThreePage), typeof(ThreePage));
             Routing.RegisterRoute(nameof(FourPage), typeof(FourPage));
+            Routing.RegisterRoute(nameof(FivePage), typeof(FivePage));
         }
     }
 }
