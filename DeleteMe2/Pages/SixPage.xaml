@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DeleteMe2.Pages.FivePage"
-             Title="FivePage">
+             x:Class="DeleteMe2.Pages.SixPage"
+             Title="SixPage">
     <VerticalStackLayout>
         <Label 
-            Text="Page FIVE "
+            Text="Page SIX!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Button Command="{Binding GoToSixPageCommand}" Text="Go to SIX Page" />
-
-        <Label></Label>
-
         <Button Command="{Binding CancelPageCommand}" Text="Cancel Page" BackgroundColor="Brown"/>
+
         
         
     </VerticalStackLayout>

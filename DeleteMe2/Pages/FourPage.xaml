@@ -11,11 +11,14 @@
             HorizontalOptions="Center" />
 
 
-        <Button Command="{Binding GoToFivePageCommand}" Text="Go to FIVE Page"/>
-        
+
+        <Button Command="{Binding GoToFivePageCommand}" Text="Go to FIVE Page" />
+
+        <Label></Label>
         
         <Button Command="{Binding CancelPageCommand}" Text="Cancel Page" BackgroundColor="Brown"/>
-        
-        
+
+
+
     </VerticalStackLayout>
 </ContentPage>

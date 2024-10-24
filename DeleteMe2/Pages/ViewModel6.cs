@@ -2,13 +2,9 @@
 
 namespace DeleteMe2.Pages;
 
-public partial class ViewModel5
+public partial class ViewModel6
 {
-    [RelayCommand]
-    public void GoToSixPage()
-    {
-        Shell.Current.GoToAsync("SixPage");
-    }
+
 
 
     [RelayCommand]
@@ -16,6 +12,7 @@ public partial class ViewModel5
     {
         Shell.Current.Navigation.PopAsync();
     }
+
 
 
 }

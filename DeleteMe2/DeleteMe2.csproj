@@ -89,6 +89,9 @@
 	  <MauiXaml Update="Pages\OnePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\SixPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\ThreePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
