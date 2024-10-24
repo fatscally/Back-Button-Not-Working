@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeleteMe2.Pages.OnePage"
+             Title="Page 1">
+
+
+
+
+    <VerticalStackLayout>
+        <Label 
+            Text="Page 1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            BackgroundColor="Red" FontSize="Large" />
+
+        <Button Command="{Binding GoToTwoPageCommand}" 
+                Text="Go to Two"/>
+        
+        
+    </VerticalStackLayout>
+</ContentPage>
