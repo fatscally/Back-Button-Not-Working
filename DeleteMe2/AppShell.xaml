@@ -17,19 +17,16 @@
         <ShellContent
             Title="Page 1"
             Icon="one_icon.png"
-            ContentTemplate="{DataTemplate local:OnePage}"
-            Route="OnePage" />  <!-- << I believe this is the fault-->
+            ContentTemplate="{DataTemplate local:OnePage}" />  
         <ShellContent
             Title="Page 2"
             Icon="two_icon.png"
-            ContentTemplate="{DataTemplate local:TwoPage}"
-            Route="TwoPage" />  <!-- << Delete this -->
+            ContentTemplate="{DataTemplate local:TwoPage}" />  
         <ShellContent
             Title="Page 3"
             Icon="three_icon.png"
             ContentTemplate="{DataTemplate local:ThreePage}"
-            IsVisible="true"
-            Route="ThreePage" /> <!-- << Delete this -->
+            IsVisible="true" /> 
 
 
     </FlyoutItem>
